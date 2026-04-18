@@ -78,6 +78,15 @@ EXIT;
 
 ---
 
+## 🌐 Step 6: Download and Configure WordPress
+
+```bash
+cd /tmp
+wget https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+sudo rsync -av wordpress/* /var/www/html/
+```
+
 ## 📁 Step 6: Set Permissions
 
 ```bash
