@@ -87,7 +87,7 @@ tar -xzf latest.tar.gz
 sudo rsync -av wordpress/* /var/www/html/
 ```
 
-## 📁 Step 6: Set Permissions
+## 📁 Step 7: Set Permissions
 
 ```bash
 sudo chown -R www-data:www-data /var/www/html/
@@ -96,7 +96,7 @@ sudo chmod -R 755 /var/www/html/
 
 ---
 
-## ⚙️ Step 7: Configure WordPress
+## ⚙️ Step 8: Configure WordPress
 
 ```bash
 cd /var/www/html
@@ -115,7 +115,7 @@ define('DB_HOST', 'localhost');
 
 ---
 
-## 🔄 Step 8: Restart Apache
+## 🔄 Step 9: Restart Apache
 
 ```bash
 sudo systemctl restart apache2
@@ -123,7 +123,7 @@ sudo systemctl restart apache2
 
 ---
 
-## 🧹 Step 9: Remove Default Page
+## 🧹 Step 10: Remove Default Page
 
 ```bash
 sudo rm /var/www/html/index.html
@@ -131,7 +131,7 @@ sudo rm /var/www/html/index.html
 
 ---
 
-## 🌐 Step 10: Access WordPress
+## 🌐 Step 11: Access WordPress
 
 Open in browser:
 
