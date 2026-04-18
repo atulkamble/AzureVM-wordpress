@@ -129,6 +129,14 @@ Open in browser:
 ```
 http://20.9.148.79/wp-admin
 ```
+```
+http://20.9.148.79/wp-login.php
+```
+set username and password 
+```
+admin
+Admin@123
+```
 
 ---
 
